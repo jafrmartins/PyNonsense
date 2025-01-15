@@ -6,19 +6,19 @@
 ### Linux / MacOS
 
 ```console
-user@machine:~$ pip install ./PySimpleObfuscate --upgrade -t ~/.local/lib/<PYTHON>/site-packages/PyObfuscate
-user@machine:~$ export PATH="~/.local/lib/<PYTHON>/site-packages/PySimpleObfuscate/bin:$PATH"
+user@machine:~$ pip install ./PyNonsense --upgrade -t ~/.local/lib/<PYTHON>/site-packages/PyNonsense
+user@machine:~$ export PATH="~/.local/lib/<PYTHON>/site-packages/PyNonsense/bin:$PATH"
 ```
 
 ### Windows
 ```console
-user@machine:~$ pip install ./PySimpleObfuscate --upgrade -t ~/.local/lib/<PYTHON>/site-packages/PySimpleObfuscate
+user@machine:~$ pip install ./PyNonsense --upgrade -t ~/.local/lib/<PYTHON>/site-packages/PyNonsense
 ```
 
 ## CLI Usage
 ```console
-user@machine:~$ pyobfuscate --help
-usage: PySimpleObfuscate [-h] SRC DEST MSG
+user@machine:~$ pynonsense --help
+usage: pynonsense [-h] SRC DEST MSG
 
 A simple python obfuscator
 
@@ -33,7 +33,7 @@ options:
 
 ## API Usage
 ```python
-from PySimpleObfuscate.lib.framework import encrypt_file, encrypt_source, cyphers
+from PyNonsense.lib.framework import encrypt_file, encrypt_source, cyphers
 
 src = "/path/to/file.py"
 dest = "/path/to/dest.py"
