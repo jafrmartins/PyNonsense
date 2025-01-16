@@ -1,4 +1,4 @@
-# PySimpleObfuscate
+# PyNonsense
 **_The Easiest Way to Encrypt your .py files_**
 
 ## Installation to Local Folder using _PIP_
